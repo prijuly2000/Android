@@ -1,0 +1,10 @@
+1) To see all the files on the server
+   http://captureimage.esy.es
+
+2) To see the uploaded images on the server 
+   http://captureimage.esy.es/ShowImages.php
+
+3) Connect with FileZilla for server side. Credentials given in FileZilla.xml file. Just import in FileZilla.
+
+ 
+

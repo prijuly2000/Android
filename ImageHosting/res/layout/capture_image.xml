@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+         android:orientation="vertical"
+         >
+			<Button android:text="Capture Photo"
+                     android:id="@+id/photo"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+              
+             <TextView
+                 android:id="@+id/message"
+                 android:layout_below="@+id/photo"
+                 android:text="Click on button to capture image"
+                 android:textSize="14dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginLeft="20dp"
+                 />
+              
+             <TextView
+                 android:id="@+id/imageDetails"
+                 android:layout_below="@+id/message"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginLeft="20dp"
+                 />
+             <TextView
+                 android:id="@+id/messageText"
+                 android:layout_below="@+id/message"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginLeft="20dp"
+                 />
+          
+             <ImageView
+                 android:id="@+id/showImg"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true"
+                 android:layout_below="@+id/imageDetails"
+                 />
+
+             <Button
+                 android:id="@+id/button1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/imageDetails"
+                 android:layout_below="@+id/imageDetails"
+                 android:text="Upload" />
+             </LinearLayout>
+
